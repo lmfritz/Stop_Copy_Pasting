@@ -1,0 +1,36 @@
+---
+title: "README"
+author: "Lauren Fritz"
+date: "2026-03-02"
+output: html_document
+---
+
+## Stop Copy-Pasting: Reproducible Scientific Writing in Quarto
+
+This document provides a summary of resources to be used in tandem with the "Stop Copy Pasting: Scientific Writing in Quarto" presentation on March 2, 2026.
+
+### Learning Outcomes
+
+1.  Conceptual understanding: students will be able to explain what reproducible scientific writing means in practice. They will have an understanding of how Quarto integrates code, text, figures, and citations. They will also be able to describe why separating analysis from writing increases error risk, which is what we are trying to avoid by writing in R!
+
+2.  Practical understanding: students will be able to identify the core components of a Quarto document (YAML, code chunks, inline R, bibliography). They will also be able to write a simple inline R expression that dynamically reports a model result. They should understand how Zotero + BibTeX integrate to allow for automated citations in Quarto.
+
+3.  Critical thinking: students will be able to evaluate when using Quarto is advantageous over Word/Google Docs. They will also be able to identify potential challenges in adopting reproducible workflows.
+
+### Topic Choice
+
+### Key Information
+
+### In-Class Activity
+
+1.  Create a minimal Quarto document for their final project
+
+2.  Embed one analysis result dynamically in narrative text.
+
+3.  Generate at least one reproducible figure directly in their report.
+
+4.  Explain how this workflow reduces errors in multi-step analyses.
+
+5.  Identify how this could scale to a final paper or thesis.
+
+### What will it look like when students master these learning outcomes?

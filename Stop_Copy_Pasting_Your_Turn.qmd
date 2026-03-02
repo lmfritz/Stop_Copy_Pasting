@@ -1,0 +1,56 @@
+---
+title: "Stop_Copy_Pasting_Your_Turn"
+format: html
+author: Who are you?
+date: 'March 2, 2026'
+editor: visual
+---
+
+## Template for your in-class activity
+
+This needs to be turned in for your final project as part of your repository anyway, so if you haven't gotten started on a document that has your motivating question, the rationale for the question, and sufficient background information to explain why the question is both interesting and important, now is the time! Do it all while practicing scientific writing in R with Quarto. It's reproducible, version control is seamless, and you basically already know how to do it.
+
+### Motivating Question for your final project
+
+???
+
+### Rationale for the Question
+
+???
+
+### Background
+
+???
+
+### Write a Paragraph Sharing Some of Your Results Using "Inline R Code"
+
+Inline R code lets you insert a small piece of R *inside of a sentence* so that the numbers update automatically. For example, let's use our penguin data.
+
+```{r}
+library(dplyr)
+library(lterdatasampler)
+data("penguins")
+head(penguins)
+
+```
+
+```{r}
+
+# Let's look at the average body mass of a female Adelie penguin
+mean_female_adelie <- mean(
+  penguins$body_mass[
+    penguins$species == "Adelie" &
+    penguins$sex == "female" &
+    !is.na(penguins$body_mass) #exclude values of NA
+  ],
+  na.rm = TRUE
+)
+
+mean_female_adelie
+```
+
+Now some inline code to report results. We added a \` (backtick) before and after the r code to make it run as code. Try it with your own data now!
+
+The average body mass of a female Adelie penguin is `r round(mean_female_adelie, 1)` g.
+
+What cool result do you have to report from your data?
