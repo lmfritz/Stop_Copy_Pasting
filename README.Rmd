@@ -19,7 +19,11 @@ This document provides a summary of resources to be used in tandem with the "Sto
 
 ### Topic Choice
 
+I chose this topic because I have been having a fruitful time lately teaching myself how to use Quarto to write R documents. I have also been excited to learn about the Bibtex integration with Quarto and wanted others to be able to explore this fabulous finding as well!
+
 ### Key Information
+
+This presentation introduced Quarto as a reproducible workflow for scientific writing in R. By integrating code, results, figures, and citations into a single document, Quarto eliminates copy-paste errors and ensures that analyses automatically update when models or data change. We explored how inline R code can dynamically report statistics directly within text, and how Zotero with BibTeX enables automated citation management. Students practiced building a minimal Quarto document using their own project datasets, creating a reproducible foundation for their final reports.
 
 ### In-Class Activity
 
@@ -34,3 +38,15 @@ This document provides a summary of resources to be used in tandem with the "Sto
 5.  Identify how this could scale to a final paper or thesis.
 
 ### What will it look like when students master these learning outcomes?
+
+When students master these learning outcomes, they will:
+
+Write their analysis and narrative in the same Quarto document without separating code from interpretation.
+
+Dynamically report model outputs (e.g., coefficients, means, sample sizes) using inline R rather than typing numbers manually.
+
+Generate figures directly in their report instead of exporting and pasting images.
+
+Integrate citations using a .bib file so references automatically format and update.
+
+Re-run their entire document with a single click and reproduce all results consistently.

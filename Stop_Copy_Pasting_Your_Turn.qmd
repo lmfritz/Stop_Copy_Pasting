@@ -49,7 +49,7 @@ mean_female_adelie <- mean(
 mean_female_adelie
 ```
 
-Now some inline code to report results. We added a \` (backtick) before and after the r code to make it run as code. Try it with your own data now!
+Now some inline code to report results of an analysis that looked at the average body mass of a female Adelie. We added a \` (backtick) before and after the r code to make it run as code. Try it with your own data now!
 
 The average body mass of a female Adelie penguin is `r round(mean_female_adelie, 1)` g.
 
